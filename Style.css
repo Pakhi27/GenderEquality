@@ -1,0 +1,161 @@
+
+body{
+   background-image:url('Image.webp');
+   background-size: cover;
+   /* opacity: 1; */
+  
+}
+.H3{
+    margin-top:20px;
+}
+#navbar{
+    background-image:url('Image.webp');
+    background-size: cover;
+    color:#ED5AB3;
+    /* opacity:0.2; */
+}
+.box1.card{
+    background-color:#ED5AB3;
+}
+.edu{
+    color:black;
+    margin-top:30px;
+}
+#n1{
+    font-size:17px;
+}
+h1
+{
+     font-family: 'Fraunces', serif;
+     color:black;
+     font-weight: bold;
+     font-size: 80px;
+     font-family: 'Poppins', sans-serif;;
+     text-align:center;
+}
+.h3{
+    text-align: center;
+    font-size:15px;
+    margin-top:30px;
+}
+.container{
+    background-image:url('gen.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p
+{
+    font-size:20px;
+    font-weight: 600;
+    font-style:normal;
+    text-align: center;
+    color:blue;
+ 
+}
+h3{
+    margin-left: 100px;
+}
+.box1
+{
+    display:flex;
+    justify-content: space-between;
+}
+.box2{
+    display:flex;
+    justify-content: space-between;
+}
+.card-1{
+    background-color:#f192a3;
+    height:400px;
+    width:400px;
+    border: 2px solid #333;
+    border-radius: 4px;
+    margin-left:150px;
+}
+.card1-text
+{
+    color:black;
+}
+.card-2{
+    background-color:#ee3ea7 ;
+    height:400px;
+    width:400px;
+    border: 2px solid #333;
+}
+.card-3{
+    background-color: #f192a3;
+    height:400px;
+    width:400px;
+    border: 2px solid #333;
+    margin-right: 140px;
+}
+.advocacy_1,.advocacy_2
+{
+    display:flex;
+}
+.b1,.b2,.b3,.b4,.b5,.b6
+{
+  border: 2px solid #333;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.b1,.b3,.b4,.b6{
+    background-color: #ee3ea7;
+}
+.b2,.b5{
+    background-color:#f192a3;
+}
+.b1 p,.b3 p,.b5 p{
+    color:red
+}
+.l1,.l2,.l3{
+   border:2px solid #333;
+   padding: 10px;
+   margin: 10px;
+   border-radius: 5px;
+   background-color:#ED5AB3;
+}
+.L1,.L2,.L3{
+    border:2px solid #333;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width:550px;
+    background-color: #f192a3;
+    /* margin-left: 200px; */
+}
+.L3{
+    background-color: #ED5AB3;
+}
+.list{
+    display: flex;
+}
+#img-1.card-img-top{
+    max-width: 100%;
+    height:auto;
+}
+@media screen and (max-width:470px)
+{
+    .edu
+    {
+        font-size:15px;
+        box-sizing:border-box;
+        text-align: center;
+        /* justify-content: center; */
+        display: flex;
+        padding:10px;
+        margin:10px;
+    }
+    #img-1.card-img-top
+    {
+        width:50px;
+        height:50px;
+    }
+    .box1{
+        display:flex;
+    }
+   
+
+}
+
